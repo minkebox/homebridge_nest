@@ -1,0 +1,21 @@
+{
+  "bridge": {
+      "name": "Nest",
+      "username": "{{BRIDGE_USERNAME}}",
+      "port": 51826,
+      "pin": "{{BRIDGE_PIN}}"
+  },
+  "description": "",
+  "accessories": [
+  ],
+  "platforms": [
+      {
+          "platform": "Nest",
+          "googleAuth": {
+              "issueToken": "{{ISSUE_TOKEN}}",
+              "cookies": "{{COOKIES}}",
+              "apiKey": "{{API_KEY}}"
+          }
+      }
+  ]
+}
