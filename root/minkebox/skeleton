@@ -77,7 +77,7 @@
     },
     {
       type: `Directory`,
-      name: `/homebridge`,
+      name: `/app/homebridge`,
       style: 'store'
     }
   ],
