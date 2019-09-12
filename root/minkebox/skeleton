@@ -6,7 +6,7 @@
   actions: [
     {
       type: `Header`,
-      title: `Configure HomeKit`
+      title: `Configure`
     },
     {
       type: `Environment`,
