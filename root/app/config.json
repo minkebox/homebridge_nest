@@ -15,7 +15,12 @@
               "issueToken": "{{ISSUE_TOKEN}}",
               "cookies": "{{COOKIES}}",
               "apiKey": "{{API_KEY}}"
-          }
+          },
+          "options": [
+            "Thermostat.SeparateBuiltInTemperatureSensor.Enable",
+            "Thermostat.SeparateBuiltInHumiditySensor.Enable",
+            "HomeAway.AsOccupancySensor"
+          ]
       }
   ]
 }
