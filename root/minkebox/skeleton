@@ -9,7 +9,7 @@
       title: `Configure HomeKit`
     },
     {
-      type: `Environment`,
+      type: `EditEnvironment`,
       description: `Pin used to add this device to your network using the Home app`,
       name: `BRIDGE_PIN`
     },
@@ -22,17 +22,17 @@
       text: `To bridge your Nest devices onto the HomeKit network, you need to provides various pieces of security information. Instructions for gettings these can be found at <a target="_blank" href="https://www.npmjs.com/package/homebridge-nest#using-a-google-account">here</a>.`
     },
     {
-      type: `Environment`,
+      type: `EditEnvironment`,
       description: `Your issueToken`,
       name: `ISSUE_TOKEN`
     },
     {
-      type: `Environment`,
+      type: `EditEnvironment`,
       description: `Your cookies`,
       name: `COOKIES`
     },
     {
-      type: `Environment`,
+      type: `EditEnvironment`,
       description: `Your apiKey`,
       name: `API_KEY`
     }
@@ -80,12 +80,5 @@
       name: `/app/homebridge`,
       style: 'store'
     }
-  ],
-  monitor: {
-    cmd: ``,
-    polling: 0,
-    parser: ``,
-    header: ``,
-    template: ``
-  }
+  ]
 }
