@@ -105,6 +105,10 @@
     },
     {
       type: `Environment`,
+      name: `BRIDGE_SETUPID`
+    },
+    {
+      type: `Environment`,
       name: `ISSUE_TOKEN`
     },
      {
